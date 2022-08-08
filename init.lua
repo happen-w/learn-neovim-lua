@@ -4,6 +4,7 @@ require("basic")
 require("keybindings")
 -- Packer插件管理
 require("plugins")
+require("plugin-config.nvim-lspconfig")
 -- 主题设置
 --require("colorscheme")
 -- 自动命令
@@ -11,6 +12,7 @@ require("plugins")
 -- 插件配置
 require("plugin-config.nvim-tree")
 require("plugin-config.doom-one")
+require("plugin-config.mason")
 --require("plugin-config.bufferline")
 --require("plugin-config.lualine")
 --require("plugin-config.telescope")

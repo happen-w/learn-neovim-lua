@@ -10,7 +10,15 @@ return require('packer').startup(function(use)
         },
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
-
+    
+    -- colorScheme
     use "NTBBloodbath/doom-one.nvim"
 
+    -- lsp
+    use "williamboman/mason.nvim"
+    use "neovim/nvim-lspconfig"
+    use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
+    use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
+    use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
+    use 'L3MON4D3/LuaSnip' -- Snippets plugin
 end)
