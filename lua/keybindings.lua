@@ -34,7 +34,10 @@ map("n", "<right>", "<nop>", opt);
 -- ` + n  
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opt)
 map("n", "<leader><leader>", "<c-w><c-h>:q<cr>", opt)
-
 map('n', '<s-f>', ':Neoformat<cr>', opt)
+
+-- 快速打开temnimal 
+map("n", "<c-t>", ":vsp<cr><c-w><c-l>:term<cr>a",opt)
+map("t", "<c-t>", "<c-\\><c-n>:q<cr>", opt)
 
 
