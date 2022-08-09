@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
     use "NTBBloodbath/doom-one.nvim"
 
     -- lsp
-    --use "williamboman/mason.nvim"
+    use "williamboman/mason.nvim"
     use "neovim/nvim-lspconfig"
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
