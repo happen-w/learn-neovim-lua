@@ -25,3 +25,6 @@ map("n", "<C-l>", "<C-w><C-l>", opt)
 
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opt)
 map("n", "<leader><leader>", "<c-w><c-h>:q<cr>", opt)
+
+map('n', '<leader>f', ':Neoformat<cr>', opt)
+
