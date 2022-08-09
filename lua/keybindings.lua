@@ -18,13 +18,23 @@ local opt = {
 -- 本地变量
 local map = vim.api.nvim_set_keymap
 
+-- 切换窗口
 map("n", "<C-h>", "<C-w><C-h>", opt)
 map("n", "<C-j>", "<C-w><C-j>", opt)
 map("n", "<C-k>", "<C-w><C-k>", opt)
 map("n", "<C-l>", "<C-w><C-l>", opt)
 
+-- norml 模式下禁止方向键
+map("n", "<up>", "<nop>", opt);
+map("n", "<down>", "<nop>", opt);
+map("n", "<left>", "<nop>", opt);
+map("n", "<right>", "<nop>", opt);
+
+
+-- ` + n  
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opt)
 map("n", "<leader><leader>", "<c-w><c-h>:q<cr>", opt)
 
-map('n', '<leader>f', ':Neoformat<cr>', opt)
+map('n', '<s-f>', ':Neoformat<cr>', opt)
+
 
