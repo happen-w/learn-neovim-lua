@@ -24,4 +24,6 @@ return require('packer').startup(function(use)
 
     -- formate
     use 'sbdchd/neoformat'
+
+    use 'preservim/nerdcommenter'
 end)

@@ -5,10 +5,9 @@ require("keybindings")
 -- Packer插件管理
 require("plugins")
 
-
 -- 插件配置
 require("plugin-config.nvim-lspconfig")
 require("plugin-config.nvim-tree")
 require("plugin-config.doom-one")
 require("plugin-config.mason")
-
+-- require("plugin-config.nerdcommenter")
