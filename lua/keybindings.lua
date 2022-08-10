@@ -41,3 +41,13 @@ map("n", "<c-t>", ":vsp<cr><c-w><c-l>:term<cr>a",opt)
 map("t", "<c-t>", "<c-\\><c-n>:q<cr>", opt)
 
 
+
+-- 跳转相关
+map('n', "<leader>9", "<s-$>", opt)
+map("n", "<leader>1", "<s-^>", opt)
+
+
+-- 列选择
+map('n', "<leader>v", "<c-v>", opt)
+
+
