@@ -53,3 +53,5 @@ map('n', "<leader>v", "<c-v>", opt)
 
 
 map('i', '<tab>', '<tab>', opt)
+map('n', '<leader>f', ':Ack<space>', opt)
+
