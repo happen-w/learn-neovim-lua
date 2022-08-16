@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
     
     -- colorScheme
     use "NTBBloodbath/doom-one.nvim"
+    use "vim-airline/vim-airline"
+    use "vim-airline/vim-airline-themes"
 
     -- lsp
     use "williamboman/mason.nvim"
