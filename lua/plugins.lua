@@ -11,6 +11,9 @@ return require('packer').startup(function(use)
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
     
+    -- search 
+    use "mileszs/ack.vim"
+
     -- colorScheme
     use "NTBBloodbath/doom-one.nvim"
     use "vim-airline/vim-airline"
