@@ -26,4 +26,6 @@ return require('packer').startup(function(use)
     use 'sbdchd/neoformat'
 
     use 'preservim/nerdcommenter'
+
+    use 'jiangmiao/auto-pairs'
 end)
