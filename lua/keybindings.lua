@@ -53,5 +53,13 @@ map('n', "<leader>v", "<c-v>", opt)
 
 
 map('i', '<tab>', '<tab>', opt)
-map('n', '<leader>f', ':Ack<space>', opt)
+
+
+map('n', '<leader>ff', ':Telescope find_files<cr>', opt);
+map('n', '<leader>fg', ':Telescope live_grep<cr>', opt);
+map('n', '<leader>fb', ':Telescope buffers<cr>', opt);
+map('n', '<leader>fh', ':Telescope help_tags<cr>', opt);
+
+
+
 

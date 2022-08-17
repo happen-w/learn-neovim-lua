@@ -13,5 +13,4 @@ require("plugin-config.mason")
 require("plugin-config.nerdcommenter")
 require("plugin-config.auto-pairs")
 require("plugin-config.airline")
-require("plugin-config.ack")
-
+-- require("plugin-config.ack")

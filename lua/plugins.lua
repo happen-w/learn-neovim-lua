@@ -12,7 +12,12 @@ return require('packer').startup(function(use)
     }
     
     -- search 
-    use "mileszs/ack.vim"
+    -- use "mileszs/ack.vim"
+
+    use {
+      'nvim-telescope/telescope.nvim', tag = '0.1.0',
+       requires = { {'nvim-lua/plenary.nvim'} }
+    }
 
     -- colorScheme
     use "NTBBloodbath/doom-one.nvim"
