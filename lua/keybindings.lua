@@ -30,6 +30,11 @@ map("n", "<down>", "<nop>", opt);
 map("n", "<left>", "<nop>", opt);
 map("n", "<right>", "<nop>", opt);
 
+map("n", "<C-Left>", ":vertical resize -2<CR>", opt)
+map("n", "<C-Right>", ":vertical resize +2<CR>", opt)
+map("n", "<C-Down>", ":resize +2<CR>", opt)
+map("n", "<C-Up>", ":resize -2<CR>", opt)
+map("n", "<leader>=", "<C-w>=", opt)
 
 -- ` + n  
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opt)
