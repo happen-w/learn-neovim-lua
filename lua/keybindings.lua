@@ -40,6 +40,8 @@ map("n", "<leader>=", "<C-w>=", opt)
 -- ` + n  
 map("n", "<leader>n", ":NvimTreeToggle<cr>", opt)
 map("n", "<leader><leader>", "<c-w><c-h>:q<cr>", opt)
+
+-- 代码格式化
 map('n', '==', ':Neoformat<cr>', opt)
 
 -- 快速打开temnimal 
