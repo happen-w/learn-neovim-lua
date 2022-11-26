@@ -24,6 +24,7 @@ map("n", "<C-j>", "<C-w><C-j>", opt)
 map("n", "<C-k>", "<C-w><C-k>", opt)
 map("n", "<C-l>", "<C-w><C-l>", opt)
 
+
 -- norml 模式下禁止方向键
 map("n", "<up>", "<nop>", opt);
 map("n", "<down>", "<nop>", opt);
@@ -44,6 +45,11 @@ map('n', '==', ':Neoformat<cr>', opt)
 -- 快速打开temnimal 
 map("n", "<c-t>", ":vsp<cr><c-w><c-l>:term<cr>a",opt)
 map("t", "<c-t>", "<c-\\><c-n>:q<cr>", opt)
+
+map("t", "<c-h>", "<c-\\><c-n><c-w><c-h>", opt)
+map("t", "<c-j>", "<c-\\><c-n><c-w><c-j>", opt)
+map("t", "<c-k>", "<c-\\><c-n><c-w><c-k>", opt)
+map("t", "<c-l>", "<c-\\><c-n><c-w><c-l>", opt)
 
 
 
